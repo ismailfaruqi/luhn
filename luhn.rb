@@ -23,5 +23,5 @@ card_patterns.each_with_index do |card_pattern, index|
 			0
 		end
 	end
-	puts "Output kartu #{index + 1}> #{result}"
+	puts "Output Kartu #{index + 1}> #{result}"
 end

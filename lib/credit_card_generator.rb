@@ -1,5 +1,3 @@
-require 'pry'
-
 class CardTemplateInvalidException < Exception
 end
 

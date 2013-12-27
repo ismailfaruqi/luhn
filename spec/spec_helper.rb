@@ -1,4 +1,5 @@
 require 'rspec/autorun'
+require 'pry'
 
 base_dir = File.expand_path(File.join(File.dirname(__FILE__), '..'))
 
