@@ -40,6 +40,7 @@ Explanation of Input / Output:
   * 4111-1111-1111-1192 (invalid luhn) 
   Only 4111-1111-1111-1152 is valid based on the Luhn algorithm, so the program outputs 1.
 
+
 ## Installation
 
 Clone this repository:
@@ -55,4 +56,13 @@ Given that the cloned repository are saved into __luhn__ directory:
 ```
 cd luhn
 ruby luhn.rb
+```
+
+## Running the test
+
+Given that the cloned repository are saved into __luhn__ directory:
+
+```
+cd luhn
+rspec spec/*
 ```
